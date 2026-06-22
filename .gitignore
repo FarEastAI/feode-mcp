@@ -1,0 +1,6 @@
+# secrets / local tooling — never commit
+*.pem
+dns-key*
+bin/
+node_modules/
+.DS_Store

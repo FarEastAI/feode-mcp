@@ -1,0 +1,137 @@
+{
+  "source": "NOV Grant Prideco Care & Handling (per API RP7G / API Spec 5C), Double Shoulder Connection guidance, and Sour Service Products manual (2009), curated by FEODE. Reference only — consult the controlling NOV document and apply a prudent safety factor.",
+  "make_up_torque": {
+    "apply_max": "Apply the maximum recommended make-up torque (MUT) when possible. Per-connection MUT values are in each product's specs (get_drill_pipe_specs).",
+    "drilling_torque_limit": "Per the IADC Drilling Manual (Ch. B, Sec. 4 VII), drilling/operating torque should not exceed 80% of make-up torque.",
+    "drill_collar_rule": "For drill collars (API 7G), max MUT = min MUT + 10%.",
+    "thread_compound": "Apply a thin, even layer of thread compound to all threads, seal faces and shoulders; keep dope uncontaminated; MUT assumes a friction factor (typically 1.0)."
+  },
+  "handling": {
+    "grip_rule": "Tong/grip jaws must avoid the box thin-wall region; grip on the thick section away from the box shoulder, with the smallest adequate force.",
+    "min_grip_distance_from_box_shoulder_mm": {
+      "API / GPDS / uGPDS": "same as API",
+      "CT-M": 25.4,
+      "HT": 50.8,
+      "XT43+ / uXT43+": 38.1,
+      "XT46+ / uXT46+": 50.8,
+      "XT-M (all sizes)": 50.8,
+      "TT380-585": 50.8,
+      "TT690+": 38.1,
+      "TT-M380-485": 25.4,
+      "TT-M500-585": 50.8,
+      "TT-M690+": 38.1
+    }
+  },
+  "care_and_handling": {
+    "principles": [
+      "Keep all threads (pipe, tool joints, lift subs, protectors) and protectors clean; prevent thread-compound contamination.",
+      "Apply a thin, even layer of thread compound to all threads, seal and shoulder faces.",
+      "Correctly calibrate torque and gauge/monitoring equipment.",
+      "Use the smallest adequate gripping force; keep tong jaws clear of the box thin-wall region.",
+      "Ensure correct handling, stabbing, centering and make-up."
+    ],
+    "note": "Summary only; does not replace NOV's full care & handling procedures (www.nov.com/grantprideco)."
+  },
+  "double_shoulder_connections": {
+    "what": "Grant Prideco DSC have a smaller pin OD and larger ID (improved hydraulics / slimhole), a primary shoulder that seals and preloads like a conventional tool joint, and secondary shoulders that engage only when bucked up to the recommended MUT.",
+    "benefits": [
+      "25%-85% higher torsional capacity than API RSC",
+      "Increased wear allowance",
+      "Better fatigue resistance",
+      "Run like API RSC (stab, spin, one-bite torque)"
+    ],
+    "picking_up_new_pipe": [
+      "Inspect thread protectors for dents/crushing; if damaged, inspect that joint's threads.",
+      "Remove storage/rust-preventive compound (soap & water, steam, or vapor degreaser); leave no residue; avoid diesel (leaves a slippery film).",
+      "Thread running compound need not be removed unless dryness/contamination is suspected.",
+      "Visually inspect threads for damage or foreign material before running."
+    ]
+  },
+  "sour_service": {
+    "principle": "Standard high-strength API drill pipe grades (e.g. S-135, G-105, X-95) have hardness and strength too high for wet H2S service and are prone to sulfide stress cracking (SSC) / stress corrosion cracking (SCC). Sour-service grades cap yield and hardness and are qualified by NACE TM0177 testing.",
+    "fields": "yield ksi (min-max) | max hardness HRC | NACE TM0177 at % SMYS",
+    "drill_pipe_body_grades": {
+      "SS-75": {
+        "yield_ksi": "75-95",
+        "max_hardness_hrc": 22,
+        "nace_tm0177_pct_smys": 85
+      },
+      "SS-95": {
+        "yield_ksi": "95-110",
+        "max_hardness_hrc": 25,
+        "nace_tm0177_pct_smys": 85
+      },
+      "SS-105": {
+        "yield_ksi": "105-120",
+        "max_hardness_hrc": 28,
+        "nace_tm0177_pct_smys": 85
+      },
+      "SU-75": {
+        "yield_ksi": "75-90",
+        "max_hardness_hrc": 22,
+        "nace_tm0177_pct_smys": 95,
+        "note": "for high-concentration H2S / underbalanced service"
+      },
+      "SU-95": {
+        "yield_ksi": "95-110",
+        "max_hardness_hrc": 25,
+        "nace_tm0177_pct_smys": 95,
+        "note": "for high-concentration H2S / underbalanced service"
+      }
+    },
+    "tool_joint_grades": {
+      "SS-110TJ": {
+        "yield_ksi": "110-125",
+        "max_hardness_hrc": 30,
+        "nace_tm0177_pct_smys": 65
+      },
+      "SU-105TJ": {
+        "yield_ksi": "105-120",
+        "max_hardness_hrc": 28,
+        "nace_tm0177_pct_smys": 80
+      },
+      "SU-110TJ": {
+        "yield_ksi": "110-125",
+        "max_hardness_hrc": 28,
+        "nace_tm0177_pct_smys": 80
+      }
+    },
+    "heavy_weight_grades": {
+      "XD-90": {
+        "yield_ksi": "90-105",
+        "nace_tm0177_pct_smys": 85,
+        "tool_joint_min_yield_ksi": 100,
+        "note": "tempered-martensite microstructure; wear-resistant, thick-wall, high torsional"
+      },
+      "CXD-90": {
+        "yield_ksi": "90-105",
+        "tool_joint_min_yield_ksi": 100
+      }
+    },
+    "track_record": "Grant Prideco was an early developer/producer of sour-service drill pipe; about 1.23 million metres (~4 million inches) supplied globally by end-2005 across 2-3/8\" to 5-7/8\".",
+    "source_note": "Grant Prideco Sour Service Products manual (2009 edition), Section 2. Transcribed from the manual; ALWAYS verify against the controlling NOV document and the well's H2S environment per NACE MR0175 / ISO 15156 before grade selection."
+  },
+  "field_usage": {
+    "source_note": "Grant Prideco sour-service manual (2009), Section 3 — field-use practice for sour-service drill pipe. Reference only.",
+    "transport_handling": [
+      "Transport with thread protectors on; never drag pipe on the ground.",
+      "When loading/unloading, support pipe at both ends; do not pile pin and box ends together."
+    ],
+    "cleaning_inspection": [
+      "Thoroughly clean pin and box connections before use.",
+      "Inspect threads and the internal shoulder for damage or foreign material; use only if intact."
+    ],
+    "on_off_rig_floor": [
+      "Keep thread protectors on when moving pipe on/off the rig floor.",
+      "Avoid metal-to-metal impact with the rig-floor doorway or pipe rack.",
+      "Do not use excessive tong/slip force."
+    ],
+    "new_connection_break_in": "On the first make-up of new connections, clean thoroughly, dope threads and shoulders (compound per API 7A1), and make up slowly for the first few cycles to break the connection in before applying full rated torque.",
+    "thread_compound_and_makeup": [
+      "Before each run, clean threads and primary/secondary shoulder faces, then apply quality thread compound to threads and shoulders.",
+      "Thread compound must meet API 7A1 or SY/T 5198-1996.",
+      "For double-shoulder connections, BOTH primary and secondary shoulders must be doped (vs conventional API: threads + single shoulder).",
+      "Make up to the rated make-up torque (per the product spec table); align properly, run the hydraulic tong slowly, do not impact the shoulder, and do not bite the pipe body."
+    ]
+  }
+}

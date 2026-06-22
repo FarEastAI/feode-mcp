@@ -1,0 +1,22 @@
+{
+  "name": "com.feode/feode-mcp",
+  "title": "FEODE Capability Server",
+  "description": "FEODE (Shenzhen Far East Oil Drilling Engineering) — query offshore well plug & abandonment, subsea wellhead systems (BV + CCS classed), continuous circulation drilling, completion, drill pipe, fishing, supervision; plus a NOV Grant Prideco drill-string spec reference and operating guidance (make-up torque, handling, sour-service grades).",
+  "version": "1.2.0",
+  "transport": { "type": "streamable-http", "url": "https://www.feode.com/mcp" },
+  "capabilities": { "tools": {} },
+  "tools": [
+    { "name": "get_company_profile", "description": "FEODE company profile: legal name, founding year (1985), HQ, Huizhou manufacturing/test base, areas served, contact." },
+    { "name": "list_products", "description": "List FEODE's 7 product/service lines (id, name, category)." },
+    { "name": "get_product_specs", "description": "Detailed specs/highlights for one product line by id." },
+    { "name": "get_certifications", "description": "FEODE certifications: BV + CCS classification of the subsea wellhead system, 8 API monogram licenses, PSL 4S, ISO 9001/14001/45001, national awards." },
+    { "name": "search_capabilities", "description": "Keyword search across FEODE products/specs." },
+    { "name": "list_drill_pipe", "description": "List NOV Grant Prideco drill string reference items (drill pipe, HWDP, drill collars)." },
+    { "name": "get_drill_pipe_specs", "description": "Full performance specs for one drill string item by id (pipe body, tool joint, make-up torque, drift)." },
+    { "name": "search_drill_pipe", "description": "Keyword search the NOV Grant Prideco drill string spec reference." },
+    { "name": "get_drill_string_guidance", "description": "NOV Grant Prideco operating guidance: make-up torque rules, grip/handling distances, care & handling, double-shoulder connections, sour-service grades." }
+  ],
+  "homepage": "https://www.feode.com",
+  "documentation": "https://www.feode.com/llms-full.txt",
+  "contact": "enquiry@feode.com"
+}
