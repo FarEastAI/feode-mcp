@@ -1,0 +1,42 @@
+{
+  "name": "feode-mcp",
+  "version": "0.1.0",
+  "description": "AI-accessible precision machining & testing MCP for FEODE — one-line stdio bridge to the remote FEODE MCP endpoint.",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "feode-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mcp-remote": "^0.1.38"
+  },
+  "keywords": [
+    "mcp",
+    "machining",
+    "cnc",
+    "contract-manufacturing",
+    "ai-agents",
+    "feode"
+  ],
+  "license": "MIT",
+  "author": "Shenzhen Far East Oil Drilling Engineering Ltd.",
+  "homepage": "https://www.feode.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarEastAI/feode-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FarEastAI/feode-mcp/issues"
+  }
+}
