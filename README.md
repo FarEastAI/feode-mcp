@@ -21,7 +21,7 @@ A remote [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server 
 - `get_company_profile` — profile (founded 1985, HQ, Huizhou manufacturing/test base, areas served).
 - `list_products` — FEODE's 7 product/service lines.
 - `get_product_specs` — detailed specs for one product line.
-- `get_certifications` — BV + CCS classification, 8 API monogram licenses, PSL 4S, ISO 9001/14001/45001, awards.
+- `get_certifications` — BV + CCS classification, 8 API monogram licenses, ISO 9001/14001/45001, awards.
 - `search_capabilities` — keyword search across products/specs.
 
 **NOV Grant Prideco drill-string reference**
